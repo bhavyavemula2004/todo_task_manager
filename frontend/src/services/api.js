@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:5000/api/tasks';
+const API_URL = 'https://bhavya-vemula-todo-task-manager.onrender.com/api/tasks';
 
 export const getTasks = async () => {
   const response = await axios.get(API_URL);
